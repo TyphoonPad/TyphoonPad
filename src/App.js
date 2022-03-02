@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit tofunft.com to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -247,16 +247,6 @@ function App() {
                 textAlign: "center",
               }}
             >
-              <StyledButton
-                onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
-                }}
-                style={{
-                  margin: "5px",
-                }}
-              >
-                Roadmap
-              </StyledButton>
               <StyledButton
                 style={{
                   margin: "5px",
