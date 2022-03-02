@@ -3,7 +3,7 @@
   "SCAN_LINK": "https://ftmscan.com/token/0x4994278b029575d68583edc6f04d9b7bb66723e4",
   "NETWORK": {
     "NAME": "Fantom",
-    "SYMBOL": "Ftm",
+    "SYMBOL": "FTM",
     "ID": 250
   },
   "NFT_NAME": "TyphoonPad Constellation",
@@ -12,7 +12,7 @@
   "WEI_COST": 10000000000000000000,
   "DISPLAY_COST": 10,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Tofu",
-  "MARKETPLACE_LINK": "https://tofunft.com/discover/items?contracts=15519&network=250",
+  "MARKETPLACE": "TofuNFT",
+  "MARKETPLACE_LINK": "https://tofunft.com/collection/typhoonpad-constellation/items",
   "SHOW_BACKGROUND": true
 }
